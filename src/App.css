@@ -16,8 +16,11 @@ html {
   background: #E8E8E8;
 }
 
-section,
-footer {
+main {
+  min-width: 80vh;
+}
+
+section {
   padding: 70px 0px;
 }
 
@@ -42,4 +45,5 @@ a {
 
 i {
   color: #fff;
+  margin-left: 5px;
 }

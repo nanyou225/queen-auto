@@ -2,14 +2,7 @@ import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import { Container } from "reactstrap";
 import "remixicon/fonts/remixicon.css";
-import "./HeaderStyle.css";
-
-const navLinks = [
-  { display: "Home", url: "#" },
-  { display: "Contact", url: "#" },
-  { display: "Connexion", url: "#" },
-  { display: "Panier", url: "#" },
-];
+import "./Header.css";
 
 const Header = () => {
   const menuRef = useRef();
@@ -20,7 +13,7 @@ const Header = () => {
         <div className="navigation">
           <div className="logo">
             <h2 className="d-flex align-items-center gap-1">
-              <Link rel="stylesheet" href="">
+              <Link to="/">
                 <span>QUEEN-AUTO</span>
               </Link>
             </h2>
@@ -40,14 +33,31 @@ const Header = () => {
                 </div>
               </div>
               <ul className="nav__list">
-                {navLinks &&
-                  navLinks.map((item, index) => (
-                    <li className="nav__item" key={index}>
-                      <Link href={item.url} onClick={menuToggle}>
-                        {item.display}
-                      </Link>
-                    </li>
-                  ))}
+                <li className="nav__item d-flex align-items-center justify-content-between">
+                  <Link to="/" onClick={menuToggle}>
+                    Home
+                  </Link>
+                </li>
+                <li className="nav__item d-flex align-items-center justify-content-between">
+                  <Link to="/contact" onClick={menuToggle}>
+                    Contact
+                  </Link>
+                  <i className="ri-contacts-line"></i>
+                </li>
+                <li className="nav__item d-flex align-items-center justify-content-between">
+                  <Link to="/connexion" onClick={menuToggle}>
+                    Connexion
+                  </Link>
+                  <i className="ri-login-box-line"></i>
+                </li>
+                <li className="nav__item d-flex align-items-center justify-content-between">
+                  <Link to="/basket" onClick={menuToggle}>
+                    <div className="cart__icon">
+                      <i className="ri-shopping-basket-2-line"></i>
+                      <span className="badge">10</span>
+                    </div>
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
