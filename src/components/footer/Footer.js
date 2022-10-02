@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
         <span>
-          Copyright &copy; - 2022 allo-piece-auto - Tous droits réservés
+          Copyright &copy; - 2022 queen-auto - Tous droits réservés
         </span>
       </footer>
   );

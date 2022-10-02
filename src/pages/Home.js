@@ -5,9 +5,7 @@ const Home = () => {
   return (
     <Fragment>
       <Header />
-      <main>
-        <h1>Home Page</h1>
-      </main>
+      <h1>Home Page</h1>
     </Fragment>
   );
 };
