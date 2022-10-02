@@ -27,7 +27,6 @@
     display: flex;
     align-items: center;
     margin-bottom: 0;
-    list-style: none;
     column-gap: 2.7rem;
 
 }
@@ -36,8 +35,8 @@
     color: #fff;
     cursor: pointer;
     list-style: none;
-    transition: all 0.25s ease-in-out;
     font-weight: 400;
+    transition: all 0.25s ease-in-out;
 }
 
 .nav__item a:hover {
