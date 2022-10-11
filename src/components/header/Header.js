@@ -35,7 +35,7 @@ const Header = () => {
               <ul className="nav__list">
                 <li className="nav__item d-flex align-items-center justify-content-between">
                   <Link to="/" onClick={menuToggle}>
-                    Home
+                  Accueil
                   </Link>
                 </li>
                 <li className="nav__item d-flex align-items-center justify-content-between">

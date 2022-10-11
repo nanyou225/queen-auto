@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Pièces moteur",
-        "thumbnail": "/url...",
+        "path": "/pieceMoteur",
         "category_list": [
             {
                 "Courroies et Distribution": [
@@ -18,7 +18,7 @@
                                 "brand": "GATES",
                                 "reference": "KP4114",
                                 "category": "Pièces moteur",
-                                "thumbnail": "/url",
+                                "path": "/url",
                                 "images": "/url"
                             },
                             {
@@ -31,7 +31,7 @@
                                 "brand": "SKF",
                                 "reference": "VKMC 93616",
                                 "category": "Pièces moteur",
-                                "thumbnail": "/url",
+                                "path": "/url",
                                 "images": "/url"
                             },
                             {
@@ -44,7 +44,7 @@
                                 "brand": "Lucas",
                                 "reference": "LKP154",
                                 "category": "Pièces moteur",
-                                "thumbnail": "/url",
+                                "path": "/url",
                                 "images": "/url"
                             },
                             {
@@ -57,7 +57,7 @@
                                 "brand": "SNR",
                                 "reference": "KDP453.111",
                                 "category": "Pièces moteur",
-                                "thumbnail": "/url",
+                                "path": "/url",
                                 "images": "/url"
                             },
                             {
@@ -70,7 +70,7 @@
                                 "brand": "DOLZ",
                                 "reference": "KD114",
                                 "category": "Pièces moteur",
-                                "thumbnail": "/url",
+                                "path": "/url",
                                 "images": "/url"
                             }
                         ],
@@ -85,7 +85,7 @@
                                 "brand": "Lucas",
                                 "reference": "LAK0225",
                                 "category": "Pièces moteur",
-                                "thumbnail": "/url",
+                                "path": "/url",
                                 "images": "/url"
                             },
                             {
@@ -98,7 +98,7 @@
                                 "brand": "DAYCO",
                                 "reference": "KPV153",
                                 "category": "Pièces moteur",
-                                "thumbnail": "/url",
+                                "path": "/url",
                                 "images": "/url"
                             },
                             {
@@ -111,7 +111,7 @@
                                 "brand": "SKF",
                                 "reference": "VKMA 33075",
                                 "category": "Pièces moteur",
-                                "thumbnail": "/url",
+                                "path": "/url",
                                 "images": "/url"
                             },
                             {
@@ -124,7 +124,7 @@
                                 "brand": "CONTITECH",
                                 "reference": "6PK1045K2",
                                 "category": "Pièces moteur",
-                                "thumbnail": "/url",
+                                "path": "/url",
                                 "images": "/url"
                             }
                         ],
@@ -194,7 +194,7 @@
     {
         "id": 2,
         "title": "Filtres et huile",
-        "thumbnail": "/url...",
+        "path": "/filtreHuile",
         "category_list": [
             {
                 "Filtres": [
@@ -232,7 +232,7 @@
     {
         "id": 3,
         "title": "Direction / Suspension / Train",
-        "thumbnail": "/url...",
+        "path": "/directionSuspension",
         "category_list": [
             {
                 "Amortisseurs": [
@@ -314,7 +314,7 @@
     {
         "id": 4,
         "title": "Freinage",
-        "thumbnail": "/url...",
+        "path": "/freinage",
         "category_list": [
             {
                 "Plaquettes de frein": [
@@ -371,7 +371,7 @@
     {
         "id": 5,
         "title": "Embrayage et Boîte de vitesse",
-        "thumbnail": "/url...",
+        "path": "/embrayageVitesse",
         "category_list": [
             {
                 "Embrayage et ;Volant-moteur": [
@@ -401,7 +401,7 @@
     {
         "id": 6,
         "title": "Démarrage électrique",
-        "thumbnail": "/url...",
+        "path": "/demarreurElectricite",
         "category_list": [
             {
                 "Batteries": [
@@ -462,7 +462,7 @@
     {
         "id": 7,
         "title": "Essuie-glaces et pièces",
-        "thumbnail": "/url...",
+        "path": "/essuieGlace",
         "category_list": [
             {
                 "Essuie-glaces": [
@@ -484,7 +484,7 @@
     {
         "id": 8,
         "title": "Pièces Habitacle",
-        "thumbnail": "/url...",
+        "path": "/pieceHabitacle",
         "category_list": [
             {
                 "Lève-vitres": [

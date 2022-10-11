@@ -7,7 +7,7 @@ const Home = () => {
     <Fragment>
       <Header />
       <NavbarCategory />
-      <h1>Home Page</h1>
+      <h1>Page Accueil</h1>
     </Fragment>
   );
 };

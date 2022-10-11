@@ -1,0 +1,29 @@
+.garage__submenu {
+    width: 10rem;
+    position: absolute;
+    top: 67px;
+    list-style: none;
+    text-align: start;
+  }
+  
+  .garage__submenu li {
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  .garage__submenu li a:hover {
+    background: rgb(0, 175, 175);
+  }
+  
+  .garage__submenu.clicked {
+    display: none;
+  }
+  
+  .submenu-item{
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+  }
