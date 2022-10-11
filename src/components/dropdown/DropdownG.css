@@ -1,29 +1,34 @@
 .garage__submenu {
-    width: 10rem;
-    position: absolute;
-    top: 67px;
-    list-style: none;
-    text-align: start;
-  }
-  
-  .garage__submenu li {
-    background: rgb(255, 255, 255);
-    cursor: pointer;
-  }
-  
-  .garage__submenu li a:hover {
-    background: rgb(0, 175, 175);
-  }
-  
-  .garage__submenu.clicked {
-    display: none;
-  }
-  
-  .submenu-item{
-    display: none;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    color: white;
-    padding: 16px;
-  }
+  position: absolute;
+  right: 7.5rem;
+  min-width: 81rem;
+  height: 35rem;
+  top: calc(100% + .10rem);
+  background-color: #fff;
+  color: #777;
+  padding: .75rem;
+  border-bottom-left-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+  transform: translateY(-1px);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.garage__submenu li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+a.linkG {
+  padding: 9px;
+}
+
+.garage__submenu.clicked {
+  display: none;
+}
+
+.garage__submenu li a:hover {
+  display: block;
+  padding: 0 5px;
+  background: rgb(225, 61, 40, .2);
+}

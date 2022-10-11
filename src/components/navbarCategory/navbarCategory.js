@@ -8,6 +8,7 @@ import "./NavbarCategory.css";
 
 const NavbarCategory = () => {
   const [dropdown, setDropdown] = useState(false);
+  const [dropdownG, setDropdownG] = useState(false);
   return (
     <header className="NavCatalog">
       <Container>
@@ -40,9 +41,15 @@ const NavbarCategory = () => {
           <li className="catalog__item">
             <Link to="outillage">Outillage</Link>
           </li>
-          <li className="catalog__item">
-            <Link to="/garagePartner">Garage Partenaire</Link>
-            <DropdownG />
+          <li
+            className="garage__item"
+            onMouseEnter={() => setDropdownG(true)}
+            onMouseLeave={() => setDropdownG(false)}
+          >
+            <Link className="linkG" to="/garagePartner">
+              Garage Partenaire
+            </Link>
+            {dropdownG && <DropdownG />}
           </li>
         </ul>
       </Container>

@@ -15,8 +15,13 @@
 }
 
 .category__submenu li {
+    margin-left: 20px;
     cursor: pointer;
 
+}
+
+a.link {
+    padding: 9px;
 }
 
 
@@ -25,7 +30,7 @@
 }
 
 .category__submenu li a:hover {
-    background: rgb(251, 61, 40, .1);
-    padding: 10px;
-    border-radius: 8px;
+    display: block;
+    padding: 0 5px;
+    background: rgb(225, 61, 40, .2);
 }
